@@ -1,4 +1,4 @@
-# BigBaseV2
+# AresMods
 A mod menu base for Grand Theft Auto V.
 Strictly for educational purposes.
 
@@ -12,14 +12,14 @@ Strictly for educational purposes.
 * scrProgram–based native hook
 
 ## Building
-To build BigBaseV2 you need:
+To build AresMods you need:
 * Visual Studio 2019
 * [Premake 5.0](https://premake.github.io/download.html) in your PATH
 
 To set up the build environment, run the following commands in a terminal:
 ```dos
-git clone https://github.com/Pocakking/BigBaseV2.git --recurse-submodules
-cd BigBaseV2
+git clone https://github.com/Pocakking/AresMods.git --recurse-submodules
+cd AresMods
 premake5 vs2019
 ```
 Now, you will be able to open the solution, and simply build it in Visual Studio.
