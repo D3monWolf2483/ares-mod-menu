@@ -1,1 +1,7 @@
-﻿  MinHook.vcxproj -> C:\Users\D3\Desktop\BigBaseV2-master\BigBaseV2\AresMods\vendor\MinHook\..\..\bin\lib\Debug\MinHook.lib
+﻿  buffer.c
+  hde32.c
+  hde64.c
+  hook.c
+  trampoline.c
+  Generating Code...
+  MinHook.vcxproj -> C:\Users\D3\Desktop\ares-mod-menu\vendor\MinHook\..\..\bin\lib\Debug\MinHook.lib

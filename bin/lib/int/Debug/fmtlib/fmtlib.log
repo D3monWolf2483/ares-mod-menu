@@ -1,1 +1,4 @@
-﻿  fmtlib.vcxproj -> C:\Users\D3\Desktop\BigBaseV2-master\BigBaseV2\AresMods\vendor\fmtlib\..\..\bin\lib\Debug\fmtlib.lib
+﻿  format.cc
+  posix.cc
+  Generating Code...
+  fmtlib.vcxproj -> C:\Users\D3\Desktop\ares-mod-menu\vendor\fmtlib\..\..\bin\lib\Debug\fmtlib.lib

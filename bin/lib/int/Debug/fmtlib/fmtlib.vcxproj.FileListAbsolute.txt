@@ -1,4 +1,4 @@
-C:\Users\D3\Desktop\BigBaseV2-master\BigBaseV2\BigBaseV2\bin\lib\Debug\fmtlib.pdb
-C:\Users\D3\Desktop\BigBaseV2-master\BigBaseV2\BigBaseV2\bin\lib\int\Debug\fmtlib\fmtlib.pdb
-C:\Users\D3\Desktop\BigBaseV2-master\BigBaseV2\AresMods\bin\lib\Debug\fmtlib.pdb
-C:\Users\D3\Desktop\BigBaseV2-master\BigBaseV2\AresMods\bin\lib\int\Debug\fmtlib\fmtlib.pdb
+C:\Users\D3\Desktop\BigBaseV2\bin\lib\Debug\fmtlib.pdb
+C:\Users\D3\Desktop\BigBaseV2\bin\lib\int\Debug\fmtlib\fmtlib.pdb
+C:\Users\D3\Desktop\ares-mod-menu\bin\lib\Debug\fmtlib.pdb
+C:\Users\D3\Desktop\ares-mod-menu\bin\lib\int\Debug\fmtlib\fmtlib.pdb
