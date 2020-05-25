@@ -1,0 +1,4 @@
+C:\Users\D3\Desktop\BigBaseV2-master\BigBaseV2\BigBaseV2\bin\lib\Debug\StackWalker.pdb
+C:\Users\D3\Desktop\BigBaseV2-master\BigBaseV2\BigBaseV2\bin\lib\int\Debug\StackWalker\StackWalker.pdb
+C:\Users\D3\Desktop\BigBaseV2-master\BigBaseV2\AresMods\bin\lib\Debug\StackWalker.pdb
+C:\Users\D3\Desktop\BigBaseV2-master\BigBaseV2\AresMods\bin\lib\int\Debug\StackWalker\StackWalker.pdb
