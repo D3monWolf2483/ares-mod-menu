@@ -1,6 +1,6 @@
-workspace "BigBaseV2"
+workspace "AresMods"
   architecture "x64"
-  startproject "BigBaseV2"
+  startproject "AresMods"
 
   configurations
   {
@@ -18,11 +18,11 @@ workspace "BigBaseV2"
   IncludeDir["ImGui"] = "vendor/ImGui"
   IncludeDir["ImGuiImpl"] = "vendor/ImGui/examples"
   IncludeDir["StackWalker"] = "vendor/StackWalker/Main/StackWalker/"
-  
+
   CppVersion = "C++17"
   MsvcToolset = "v142"
   WindowsSdkVersion = "10.0"
-  
+
   function DeclareMSVCOptions()
     filter "system:windows"
     staticruntime "Off"
@@ -37,7 +37,7 @@ workspace "BigBaseV2"
       "WIN32_LEAN_AND_MEAN",
       "_WIN32_WINNT=0x601" -- Support Windows 7
     }
-    
+
     disablewarnings
     {
       "4100", -- C4100: unreferenced formal parameter
@@ -45,7 +45,7 @@ workspace "BigBaseV2"
       "4307"  -- C4307: integral constant overflow
     }
   end
-   
+
   function DeclareDebugOptions()
     filter "configurations:Debug"
       defines { "_DEBUG" }
@@ -53,7 +53,7 @@ workspace "BigBaseV2"
     filter "not configurations:Debug"
       defines { "NDEBUG" }
   end
-   
+
   project "ImGui"
     location "vendor/%{prj.name}"
     kind "StaticLib"
@@ -61,7 +61,7 @@ workspace "BigBaseV2"
 
     targetdir ("bin/lib/" .. outputdir)
     objdir ("bin/lib/int/" .. outputdir .. "/%{prj.name}")
-    
+
     files
     {
       "vendor/%{prj.name}/imgui.cpp",
@@ -106,7 +106,7 @@ workspace "BigBaseV2"
     location "vendor/%{prj.name}"
     kind "StaticLib"
     language "C++"
-  
+
     targetdir ("bin/lib/" .. outputdir)
     objdir ("bin/lib/int/" .. outputdir .. "/%{prj.name}")
 
@@ -141,8 +141,8 @@ workspace "BigBaseV2"
     DeclareMSVCOptions()
     DeclareDebugOptions()
 
-  project "BigBaseV2"
-    location "BigBaseV2"
+  project "AresMods"
+    location "AresMods"
     kind "SharedLib"
     language "C++"
 
@@ -151,7 +151,7 @@ workspace "BigBaseV2"
 
     PrecompiledHeaderInclude = "common.hpp"
     PrecompiledHeaderSource = "%{prj.name}/src/common.cpp"
- 
+
     files
     {
       "%{prj.name}/src/**.hpp",
@@ -197,12 +197,12 @@ workspace "BigBaseV2"
     flags { "NoImportLib", "Maps" }
 
     filter "configurations:Debug"
-      defines { "BIGBASEV2_DEBUG" }
+      defines { "AresMods_DEBUG" }
 
     filter "configurations:Release"
-      defines { "BIGBASEV2_RELEASE" }
+      defines { "AresMods_RELEASE" }
       optimize "speed"
     filter "configurations:Dist"
       flags { "LinkTimeOptimization", "FatalCompileWarnings" }
-      defines { "BIGBASEV2_DIST" }
+      defines { "AresMods_DIST" }
       optimize "speed"
